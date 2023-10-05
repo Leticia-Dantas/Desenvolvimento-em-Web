@@ -20,11 +20,22 @@
 
         {{^erro_form}}
         <div class="col-8 offset-2">
-            <h3>Dados do agendamento</h3>
+            <h3>Dados do agendamento - Paciente</h3>
             <h4>Nome: {{agendamento.nome}}</h4>
+            <h4>CPF: {{agendamento.CPF}}</h4>
+            <h4>Data_nacimento: {{agendamento.data_nacimento}}</h4>
             <h4>Endereço: {{agendamento.endereco}}</h4>
+            <h4>UF: {{agendamento.UF}}</h4>
+            <h4>CEP: {{agendamento.CEP}}</h4>
+            <h4>E-mail: {{agendamento.email}}</h4>
             <h4>Telefone: {{agendamento.telefone}}</h4>
-            <h4>Data: {{agendamento.data_agendamento}}</h4>
+
+            <h3>Dados do agendamento - Consulta</h3>
+            <h4>Especialidade medica: {{agendamento.especialidade}}</h4>
+            <h4>Horas do agendamento: {{agendamento.horas}}</h4>
+            <h4>Data do agendamento : {{agendamento.data}}</h4>
+            <h4>Antibióticos: {{agendamento.medicamentos}}</h4>
+            <h4>Informações Adicionais: {{agendamento.info}}</h4>
         </div>
         {{/erro_form}}
 
